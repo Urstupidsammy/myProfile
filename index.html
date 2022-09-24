@@ -6,8 +6,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/glightbox.min.css">
 </head>
 <body>
-    <p>hello world</p>
+    <!--Begin Hero Header-->
+   <header class="hero-box">
+    <section class="hero-image-box">
+        <img class="hero-image"src="img/spacee.jpeg" alt="An image of Space">
+    </section>
+    <section class="hero-text-box">
+        <h1 class="hero-heading">Never Ending Possibilities</h1>
+        <p class="hero-text">
+            Explore Samuel Galban's creative projects
+        </p>
+        <p>
+            <a href="#portfolio">
+                <button type="button" class="hero-button">View Portfolio</button>
+            </a>
+        </p>
+    </section>
+   </header>
+   <!--End Hero Header-->
+
+   <!--Begin Portfolio-->
+   <section id="portfolio" class="portfolio-container">
+    <h1>Portfolio</h1>
+    <section class="portfolio-gallery">
+        <div class="gallery-item">
+        <a href="img/Screen Shot 2022-09-24 at 12.38.41 PM.png" class="glightbox" data-glightbox="title: Marketing Site; description: This is a photo of Marketing Site I worked on"></a>
+            <img src="img/Screen Shot 2022-09-24 at 12.38.41 PM.png" alt="Image of a Marketing Company" class="gallery-img"></a>
+    </div>
+    <div class="gallery-item">
+        <a href="img/HR-Castle_Wide_Fall_Full-e0581a2d5056a36_87e85a2c-5056-a36a-081d37b817e97024.jpeg" class="glightbox" data-glightbox="title: Ancient Castle; description: A photo of an Ancient Castle"></a>
+            <img src="img/HR-Castle_Wide_Fall_Full-e0581a2d5056a36_87e85a2c-5056-a36a-081d37b817e97024.jpeg" alt="Image of an Ancient Castle" class="gallery-img"></a>
+    </div>
+    <div class="gallery-item">
+        <a href="img/Broken-tulip-flower.webp" class="glightbox" data-glightbox="title: A Broken Tulip; description: This is a photo of a beautiful flower"></a>
+            <img src="img/Broken-tulip-flower.webp" alt="Image of a flower" class="gallery-img"></a>
+    </div>
+    </section>
+   </section>
+   <!--End Portfolio-->
+   
+   <script src="js/glightbox.min.js"></script>
+    <script type="text/javascript">
+        const lightbox = Glightbox({loop: true});  </script>
 </body>
 </html>
