@@ -12,3 +12,5 @@ Screenshot:
 
 
 Links:
+https://urstupidsammy.github.io/myProfile/
+https://github.com/Urstupidsammy/myProfile.git
